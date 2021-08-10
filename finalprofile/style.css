@@ -1,0 +1,547 @@
+body {
+        background-color: #f1f1f1;
+    }
+    
+    .btn {
+        background-color: rgb(218, 218, 218);
+        width: fit-content;
+        height: fit-content;
+        font-size: 14px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: -1px;
+    }
+    
+    .flex-row {
+        font-size: 20px;
+        background-color: #003d63;
+        color: white;
+        padding: 1%;
+        font-weight: 400;
+        padding-left: 13%;
+        margin-top: 2px;
+    }
+    
+    .col {
+        margin: 1.7%;
+        background-color: white;
+        padding: 2%;
+        border: 1px solid rgb(214, 211, 211);
+    }
+    
+    .row {
+        margin: 8%;
+        padding: 3%;
+    }
+    
+    hr {
+        margin-top: -1%;
+    }
+    
+    i.fa-mail-bulk {
+        font-size: 5;
+    }
+    
+    .profile-pic {
+        background: #eaeaea;
+        border: 1px solid #d0d0d0;
+        border-radius: 50%;
+        text-align: center;
+        width: 110px;
+        height: 110px;
+        display: block;
+        background-position: center;
+        background-size: 110px;
+        padding: 5px
+    }
+    
+    i.fa-camera {
+        margin-left: 5%;
+        font-size: 22px;
+        color: #aaa;
+    }
+    
+    #name {
+        font-weight: 360;
+        font-size: 4;
+    }
+    
+    #desig {
+        font-size: small;
+        font-weight: 350;
+    }
+    
+    #number {
+        margin-top: -5%;
+        padding: 5%;
+    }
+    
+    i.fa-phone {
+        font-size: 15px;
+        color: rgb(80, 78, 78);
+    }
+    
+    i.fa-mobile {
+        margin-top: 5%;
+        font-size: 15px;
+        color: rgb(80, 78, 78);
+    }
+    
+    .about {
+        padding: 5%;
+        font-size: 14px;
+    }
+    
+    i.fa-address-card {
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .empd {
+        padding: 4%;
+        margin-top: 3%;
+    }
+    
+    i.fa-lock {
+        float: right;
+        color: rgb(196, 196, 196);
+        margin-top: 4%;
+        font-size: 15px;
+    }
+    
+    i.fa-pencil-alt {
+        float: right;
+        color: #aaa;
+    }
+    
+    .item {
+        font-size: small;
+        font-weight: 400;
+        color: #aaa;
+        margin-top: -2%;
+    }
+    
+    .content {
+        margin-top: -1%;
+        font-size: small;
+        font-weight: 400;
+    }
+    
+    .orgd {
+        padding: 3%;
+        margin-top: 2%;
+        font-size: 22px;
+        font-weight: 380;
+    }
+    
+    i.fa-sitemap {
+        font-weight: 20px;
+    }
+    
+    .orgp {
+        background: #eaeaea;
+        border: 1px solid #d0d0d0;
+        border-radius: 50%;
+        text-align: right;
+        width: 40px;
+        height: 40px;
+        float: left;
+        background-position: left;
+        background-size: 40px;
+        padding: 2px
+    }
+    
+    .pid {
+        padding: 3%;
+        margin-top: 2%;
+        font-size: 20px;
+        font-weight: 380;
+    }
+    
+    i.fa-infi-circle {
+        font-weight: 20px;
+    }
+    
+    i.fa-square {
+        font-size: 7px;
+    }
+    
+    .cid {
+        padding: 3%;
+        margin-top: 2%;
+        font-size: 20px;
+        font-weight: 380;
+    }
+    
+    i.fa-phone-square {
+        font-weight: 20px;
+    }
+    
+    i.fa-ambulance {
+        font-weight: 20px;
+    }
+    
+    select {
+        border: 0px;
+        outline: 0px;
+        background-color: white;
+        background: none;
+        text-decoration: underline;
+    }
+    
+    .sticky-top {
+        padding-left: 12%;
+        background-color: white;
+    }
+    
+    .flex {
+        height: 67px;
+        background-color: white;
+        padding-left: 13%;
+        padding-top: 1%;
+    }
+    
+    #flag {
+        height: 22px;
+        width: 32px;
+        margin-top: -8px;
+    }
+    
+    #acc {
+        float: right;
+        margin-right: 13%;
+        margin-top: 0.5%;
+    }
+    
+    i.fa-male {
+        font-size: 20px;
+        margin-right: 4px;
+        margin-top: 4px;
+    }
+    
+    i.fa-caret-down {
+        font-size: 18px;
+    }
+    
+    .search {
+        width: 45%;
+        height: 70%;
+        border-color: rgb(240, 240, 240);
+        font-size: small;
+        padding-left: 2%;
+    }
+    
+    i.fa-search {
+        font-size: x-large;
+        color: rgb(141, 141, 141);
+    }
+    
+    i.fa-bell {
+        font-size: x-large;
+        color: rgb(141, 141, 141);
+    }
+    
+    i.fa-calendar-alt {
+        font-size: x-large;
+        color: rgb(141, 141, 141);
+    }
+    
+    .agree {
+        margin-top: 1.5%;
+    }
+    
+    .agreement {
+        height: 60px;
+        padding: 1.5%;
+        font-size: 13px;
+        background-color: rgb(214, 240, 250);
+        color: rgb(63, 142, 168);
+    }
+    
+    #row1 {
+        margin-top: 3%;
+    }
+    
+    .disc {
+        background-color: rgb(253, 243, 224);
+        margin-left: 12%;
+        margin-top: -10%;
+        width: 76%;
+        margin-bottom: 2%;
+    }
+    
+    #pdis {
+        font-size: 11.5px;
+        padding: 2%;
+        color: rgb(128, 128, 75);
+        margin-bottom: -0.5%;
+    }
+    
+    .cpri {
+        height: 50px;
+        color: white;
+        background-color: rgb(27, 27, 34);
+        padding: 1%;
+        margin-top: -1%;
+    }
+    
+    #cpri {
+        font-weight: 380;
+        font-size: 14px;
+        margin-left: 39%;
+    }
+    /*disappearing menu...........*/
+    
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
+        left: 0;
+        background: #7386D5;
+        color: #fff;
+        /* background-color: #111;*/
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
+    /* The navigation menu links */
+    
+    .sidenav a {
+        padding: 3px 8px 3px 12px;
+        text-decoration: none;
+        font-size: 21px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        margin-bottom: -2%;
+    }
+    /* When you mouse over the navigation links, change their color */
+    
+    .sidenav a:hover {
+        /* color: #f1f1f1;*/
+        color: #7386D5;
+        background: #fff;
+    }
+    /* Position and style the close button (top right corner) */
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 43px;
+        color: black;
+        margin-top: -15px;
+        margin-right: -15px;
+        margin-left: 50px;
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    
+    @media screen and (min-width: 942px) {
+        .menubutton {
+            display: none;
+        }
+        .blank {
+            display: none;
+        }
+        .searchbar2 {
+            display: none;
+        }
+        .righticons2 {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 942px) {
+        .sticky-top {
+            display: none;
+        }
+        .searchbar {
+            display: none;
+        }
+        #acc {
+            display: none;
+        }
+        .agree {
+            display: none;
+        }
+        .topicons {
+            display: none;
+        }
+        #skillbox {
+            display: none;
+        }
+        .righticons {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+    
+    .menubutton {
+        background-color: rgb(62, 62, 105);
+        color: white;
+        margin-right: 2%;
+        margin-left: -14%;
+        font-size: large;
+    }
+    
+    .d1:hover .b1 {
+        display: block;
+    }
+    
+    .b1 a:hover {
+        background-color: #ddd;
+    }
+    
+    i:hover {
+        color: navy;
+    }
+    
+    .btn2 {
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    #skill {
+        background-color: #0098D1;
+        color: white;
+        border: none;
+        font-size: 14px;
+        font-weight: 370;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
+    #skill:hover {
+        background-color: navy;
+    }
+    
+    #skillbox {
+        float: right;
+        margin-right: 13%;
+        margin-top: 15px;
+    }
+    
+    .btn:hover {
+        background-color: navy;
+        color: white;
+    }
+    /*right buttons*/
+    
+    #rb1 {
+        width: 40px;
+        height: 40px;
+        background-color: #0098D1;
+        color: white;
+        border: none;
+        margin-bottom: 1px;
+    }
+    
+    #rb2 {
+        width: 40px;
+        height: 40px;
+        background-color: #0098D1;
+        color: white;
+        border: none;
+        margin-bottom: 1px;
+    }
+    
+    #rb3 {
+        width: 40px;
+        height: 40px;
+        background-color: #0098D1;
+        color: white;
+        border: none;
+        margin-bottom: 1px;
+    }
+    
+    #rb4 {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(235, 91, 55);
+        color: white;
+        border: none;
+    }
+    
+    i.fa-headphones-alt {
+        font-size: 25px;
+    }
+    
+    i.fa-shopping-basket {
+        font-size: 25px;
+    }
+    
+    i.fa-smile {
+        font-size: 25px;
+        color: yellow;
+    }
+    
+    i.fa-info-circle {
+        font-size: 25px;
+    }
+    
+    .righticons {
+        position: fixed;
+        top: 32%;
+        right: 0px;
+        width: 115px;
+        height: 0px;
+        text-align: right;
+        z-index: 9999;
+        margin-top: -15px;
+    }
+    
+    #rb1:hover {
+        background-color: rgb(42, 42, 248);
+    }
+    
+    #rb2:hover {
+        background-color: rgb(42, 42, 248);
+    }
+    
+    #rb3:hover {
+        background-color: rgb(42, 42, 248);
+    }
+    
+    #rb4:hover {
+        background-color: rgb(150, 40, 7);
+    }
+    
+    .righticons2 {
+        position: fixed;
+        top: 95%;
+        /*right: 50px;*/
+        left: 40px;
+        bottom: 0px;
+        /* width: 115px; */
+        height: 0px;
+        text-align: bottom;
+        margin-top: -15px;
+    }

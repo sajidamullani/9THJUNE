@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+    <div class="flex">
+        <!--toggle button-->
+        <button type="button" data-toggle="tooltip" title="Menu Bar" id="sidebarCollapse" class="btn btn-info menubutton" onclick="openNav()">
+            <i class="fas fa-align-left"></i>
+        </button>
+
+        <!--toggle button end-->
+        <img src="img/masteklogo.png" alt="Mastek logo">
+        <span class="searchbar">
+        <input type="text" placeholder="Search Everything" class="search ml-2 rounded">
+        <i class="fas fa-search" style="margin-left: -35px;" data-toggle="tooltip" title="Search"></i></span>
+        <span class="topicons"> <i class="ml-4 far fa-bell" data-toggle="tooltip" title="No new notifications"></i>
+            <i class="far fa-calendar-alt ml-2" data-toggle="tooltip" title="Calender"></i>
+            <img id="flag" src="img/flagg.jpg" alt="Indian Flag" class="ml-2" data-toggle="tooltip" title="Flag">
+            <i class="fas fa-grip-lines-vertical ml-2"></i></span>
+        <span id="acc">
+           <span style="font-size: 14px; margin-right: 6px; "> Hi, Sajida</span>
+        <i class="fa fa-male" data-toggle="tooltip" title="Signed In as"></i>
+        <i class="fas fa-caret-down"></i>
+        </span>
+        <span class="searchbar2"><i class="fas fa-search fa-border" style="float: right; margin-right: 20px;margin-top: 10px;" data-toggle="tooltip" title="Search"></i></span>
+
+    </div>
+
+    <!--menu sidebar content starts here-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="d-inline dropdown">
+            <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
+            <a href="#">Applications</a>
+        </button>
+            <div class="dropdown-menu b2">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown">
+            <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
+            <a href="#">Corporate Functions</a>
+        </button>
+            <div class="dropdown-menu b2">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown">
+            <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
+            <a href="#">Collaboration Portals</a>
+        </button>
+            <div class="dropdown-menu b2">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown">
+            <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
+            <a href="#">External Links</a>
+        </button>
+            <div class="dropdown-menu b2">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown">
+            <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
+            <a href="#">About Mastek</a>
+        </button>
+            <div class="dropdown-menu b2">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown">
+            <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
+            <a href="#">Support</a>
+        </button>
+            <div class="dropdown-menu b2">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+
+    <!--menu sidebar content ends here -->
+
+
+
+    <div class=" sticky-top">
+        <div class="d-inline dropdown d1">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              Applications
+            </button>
+            <div class="dropdown-menu b1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown d1">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              Corporate Functions
+            </button>
+            <div class="dropdown-menu b1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown d1">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+             Collaboration Portals
+            </button>
+            <div class="dropdown-menu b1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown d1">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              External Links
+            </button>
+            <div class="dropdown-menu b1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown d1">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              About Mastek
+            </button>
+            <div class="dropdown-menu b1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="d-inline dropdown d1">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              Support
+            </button>
+            <div class="dropdown-menu b1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+</head>
+
+<body>
+    <!--right float buttons-->
+    <div class="righticons">
+        <button id="rb1" data-toggle="tooltip" title="Support" data-placement="left"><i class="fas fa-headphones-alt"></i></button><br>
+        <button id="rb2" data-toggle="tooltip" title="AppStore" data-placement="left"><i class="fas fa-shopping-basket"></i></button><br>
+        <button id="rb3" data-toggle="tooltip" title="Feedback" data-placement="left"><i class="far fa-smile"></i></button><br>
+        <button id="rb4" data-toggle="tooltip" title="Mastekeer Induction Guide" data-placement="left"> <i class="fas fa-info-circle"></i></button>
+    </div>
+    <!--right float buttons end-->
+
+    <h1 class="flex-row">My Profile</h1>
+    <div class="blank">&nbsp; <br>&nbsp;<br> &nbsp;
+    </div>
+    <div class="container agree" align="center">
+
+        <label class="btn active agreement abox">
+                <input type="checkbox" name="" id="" checked autocomplete="off"> By selecting the checkbox for personal information consent, you have agreed to share your personal information with Mastek Ltd. Read disclaimer given below.
+            </label>
+
+
+    </div>
+    <div id="skillbox"><button id="skill" data-toggle="tooltip" title="My Skills" data-placement="bottom"><i class="fas fa-file-alt"></i>&nbsp;My Skills</button></div>
+
+    <div id="row1" class="row">
+        <div class="col">
+            <div class="abc" style="margin-top: -85px;" align="center"><img src="img/img_avatar.png" alt="Avatar" class="profile-pic" id="img">
+                <div class="edit" style="width: 100%;border: solid 0px red;text-align: center;margin-top: -15px;display: block;margin-left: 25px;">
+
+                    <i class="fas fa-camera" data-toggle="tooltip" title="Edit profile photo"></i> </div>
+
+            </div>
+            <div id="n">
+                <h2 id="name" align="center">Sajida Mullani</h2>
+            </div>
+            <div id="d">
+                <h4 id="desig" align="center">Trainee Software Engineer</h4>
+            </div>
+            <div id="number">
+                <i class="fas fa-mail-bulk">&nbsp;<a href="mailto:">  sajidamullani463@gmail.com</a></i><br><br>
+                <i class="fas fa-phone"><u class="ml-4"> 91</i></u>
+                <i class="mt-2 fas fa-pencil-alt" data-toggle="tooltip" title="Edit extension"></i><br>
+                <i class="fas fa-mobile"><u class="ml-4"> 9889537909</i><i class="mt-2 fas fa-pencil-alt" data-toggle="tooltip" title="Edit number"></i></u>
+            </div>
+            <div class="about">
+                <i class="fas fa-male"></i><b class="ml-2">About Me</b><br><br>
+                <p style="margin-top: -4%;"><u> This is a brief introduction <i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit about info"></i></p></u>
+            </div>
+
+            <div class="about">
+                <i class="fas fa-graduation-cap"><b class="ml-1">Certifications</b></i><i style="float: right;color: #aaa;" class="fas fa-plus" data-toggle="tooltip" title="Add certificates"></i>
+                <br><br>
+                <a href="#">Certificate 1</a><br>
+                <a href="#">Certificate 1</a>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="empd" style="margin-top: -4%;">
+                <i class="fas fa-address-card">&nbsp; Employment Details</i>
+            </div>
+            <hr>
+            <b class="item">Employee Number: </b>
+            <p class="content">14910</p>
+            <b class="item">Service Line: </b>
+            <p class="content">TalentPool</p>
+            <b class="item">Unit: </b>
+            <p class="content">Talent Management Trainee Pool</p>
+            <b class="item">Cost Center: </b>
+            <p class="content">India_abc</p>
+            <b class="item">Area: </b>
+            <p class="content">Maharashtra</p>
+            <b class="item">Sub Area: </b>
+            <p class="content">Mumbai</p>
+            <b class="item">Grade: </b><i class="fas fa-lock" data-toggle="tooltip" title="Locked!"></i>
+            <p class="content">T2</p>
+            <b class="item">Unit HR: </b><i class="fas fa-lock" data-toggle="tooltip" title="Locked!"></i>
+            <p class="content"> N/A</p>
+            <b class="item">Date of Joining: </b><i class="fas fa-lock" data-toggle="tooltip" title="Locked!"></i>
+            <p class="content"> 10/10/2020</p>
+        </div>
+        <div class="col">
+            <div class="orgd" style="margin-top: -4%;">
+                <i class="fas fa-sitemap"></i>&nbsp; Organization
+            </div>
+            <hr><br>
+            <div class="container">
+                <span class="content"><img src="img/ashankd.jpg" alt="Ashank Desai" class="orgp">
+                    &nbsp; Ashank Desai
+                </span>
+            </div><br>
+
+            <div class="container"><span class="content"><img src="img/maninder.jpg" alt="Maninder Kapoor" class="orgp">&nbsp;&nbsp;Maninder Kapoor Puri</span></div><br>
+
+            <div class="container"><span class="content"><img src="img/girish.jpg" alt="Girish Kulkarni" class="orgp">&nbsp;&nbsp;Girish Kulkarni</span></div><br>
+
+            <div class="container"><span class="content"><img src="img/joell.jpg" alt="Joel J. Luis" class="orgp">&nbsp;&nbsp;Joel J. Luis</span></div><br>
+
+            <div class="container"><span class="content"><img src="img/img_avatar.png" alt="Sajida Mullani" class="orgp">&nbsp;&nbsp;Sajida Mullani</span></div><br>
+        </div>
+    </div>
+    <br>
+    <div id="row2" class="row" style="margin-top: -16%;">
+        <div class="col">
+            <div class="pid" style="margin-top: -4%;">
+                <i class="fas fa-info-circle"></i>&nbsp; Personal Information<i class="fas fa-lock" style="font-size: 15px;" data-toggle="tooltip" title="Locked!"></i>
+            </div>
+            <hr><br>
+            <b class="item">Gender: </b>
+            <p class="content">Fealem</p>
+            <b class="item">Birthday: </b>
+            <p class="content">24/05/1996</p>
+            <b class="item">Other Details </b><br><br>
+            <p class="content"><i class="fas fa-square"></i>&nbsp;&nbsp; Passport/Visa<i style="float: right;color: #aaa;" class="fas fa-plus" data-toggle="tooltip" title="Add passport/visa details"></i></p>
+            <p class="content"><i class="fas fa-square"></i>&nbsp;&nbsp; Family Details<i style="float: right;color: #aaa;" class="fas fa-plus" data-toggle="tooltip" title="Add Family Details"></i></p>
+
+        </div>
+        <div class="col">
+            <div class="cid" style="margin-top: -4%;">
+                <i class="fas fa-phone-square"></i>&nbsp; Contact Information<i class="fas fa-lock" style="font-size: 15px;" data-toggle="tooltip" title="Locked!"></i>
+            </div>
+            <hr><br>
+            <b class="item">Personal Email:</b>
+            <p class="content"><u> sajidamullani463@gmail.com<i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit personal email"></u></i>
+            </p>
+            <b class="item">Residence Number:</b>
+            <p class="content"><u> 7017894837<i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit residence number"></u></i>
+            </p>
+            <b class="item">Current Address: </b>
+            <address class="content"><u> 1802, Monarch Luxuria, Sector 18, Plot 6, Kharghar, Navi Mumbai</u><i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit address"></i></address></i>
+
+        </div>
+        <div class="col">
+            <div class="cid" style="margin-top: -4%;">
+                <i class="fas fa-ambulance"></i>&nbsp; Emergency Details<i class="fas fa-lock" style="font-size: 15px;" data-toggle="tooltip" title="Locked!"></i>
+            </div>
+            <hr><br>
+            <b class="item">Blood Group:</b><br>
+            <select name="Blood Group" id="bg">
+                <option value="A+">A+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="A-">A-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="B+">B+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="B-">B-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="O+">O+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="O-">O-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="AB+">AB+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="AB-">AB-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select><i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit blood group"></i><br><br>
+            <b class="item">Emergency Contact Name:</b>
+            <p class="content"><u> Samiulla <i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit emergency contact name"></u></i>
+            </p>
+            <b class="item">Emergency Contact Number:</b>
+            <p class="content"><u> 7378906781<i class="fas fa-pencil-alt" data-toggle="tooltip" title="Edit emergency contact number"></u></i>
+            </p>
+
+        </div>
+    </div>
+    <div class="righticons2 container-fluid">
+        <button id="rb1"><i class="fas fa-headphones-alt"></i></button>
+        <button id="rb2"><i class="fas fa-shopping-basket"></i></button>
+        <button id="rb3"><i class="far fa-smile"></i></button>
+        <button id="rb4"> <i class="fas fa-info-circle"></i></button>
+    </div>
+</body>
+<footer>
+
+    <div class="container disc border ">
+        <p id="pdis"><b>Disclaimer:</b> Your privacy is important to us. Mastek uses the personal data provided by you on this form for the organizations internal processing requirement as part your employment. We will use your data for the organizations communication
+            and notification. We will share your data with Mastek controlled affiliates and subsidiaries; with vendors working on our behalf; when required by law or to respond to legal process; to protect our customers ; to protect lives; to maintain
+            the security of our services; and to protect the right of property or Mastek. Mastek is committed to protecting the security of your personal data. Mastek requests you to inform us about any changes to your personal data via an email to your
+            respective Human Resource personal or by sending an email to <a href="#"> PIIdatamodification@mastek.com</a> .</p>
+    </div>
+
+    <div class="container-fluid cpri">
+        <h7 id="cpri">&copy Copyright 2016 - 2021. All rights reserved</h7>
+    </div>
+
+</footer>
+
+
+</html>
